@@ -1,5 +1,5 @@
-import { VercelRequest, VercelResponse } from '@vercel/functions';
+import { VercelRequest, VercelResponse } from '@vercel/node';
 
 export default function handler(req: VercelRequest, res: VercelResponse) {
-  res.status(200).json({ message: "Working from Vercel!" });
+  res.status(200).json({ message: "Hello from Vercel serverless function!" });
 }
