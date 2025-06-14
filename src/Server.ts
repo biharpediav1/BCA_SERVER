@@ -42,7 +42,7 @@ const client = new vision.ImageAnnotatorClient();
 
 const allowedOrigins = ["http://localhost:3000","https://bca-react-git-main-biharpediav1s-projects.vercel.app"];
 
-app.use(express.json());
+app.use(express.json()); 
 app.use(cors({
   origin: function (origin, callback) {
     if (!origin || allowedOrigins.includes(origin)) {
