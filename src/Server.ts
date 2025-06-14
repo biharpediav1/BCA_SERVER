@@ -40,18 +40,20 @@ const app = express();
 const vision = require('@google-cloud/vision');
 const client = new vision.ImageAnnotatorClient();
 
-const allowedOrigins = ["http://localhost:3000","https://bca-react-git-main-biharpediav1s-projects.vercel.app"];
+// const allowedOrigins = ["http://localhost:3000","https://bca-react-git-main-biharpediav1s-projects.vercel.app"];
 
 app.use(express.json()); 
-app.use(cors({
-  origin: function (origin, callback) {
-    if (!origin || allowedOrigins.includes(origin)) {
-      callback(null, true);
-    } else {
-      callback(new Error("Not allowed by CORS"));
-    }
-  }
-}));
+app.use(cors());
+
+// app.use(cors({
+//   origin: function (origin, callback) {
+//     if (!origin || allowedOrigins.includes(origin)) {
+//       callback(null, true);
+//     } else {
+//       callback(new Error("Not allowed by CORS"));
+//     }
+//   }
+// }));
 
 app.use('/api', index_router);
 
