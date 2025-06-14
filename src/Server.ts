@@ -40,7 +40,7 @@ const app = express();
 const vision = require('@google-cloud/vision');
 const client = new vision.ImageAnnotatorClient();
 
-const allowedOrigins = ["http://localhost:3000"];
+const allowedOrigins = ["http://localhost:3000","https://bca-server-2-git-main-biharpediav1s-projects.vercel.app"];
 
 app.use(express.json());
 app.use(cors({
