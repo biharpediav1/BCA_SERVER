@@ -9,6 +9,6 @@ const yourSchema = new mongoose.Schema({
     Correct: String,
 });
 
-const Web = mongoose.model('web', yourSchema);
+const Web = mongoose.model('DBMS', yourSchema);
 
 export default Web;
