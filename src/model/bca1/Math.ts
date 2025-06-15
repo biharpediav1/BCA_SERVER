@@ -11,4 +11,4 @@ const yourSchema = new mongoose.Schema({
 
 const Math = mongoose.model('software', yourSchema);
 
-export default Math;
+export default Math; 
