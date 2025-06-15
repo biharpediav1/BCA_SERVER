@@ -9,6 +9,6 @@ const yourSchema = new mongoose.Schema({
     Correct: String,
 });
 
-const C_Skill = mongoose.model('cs', yourSchema);
+const C_Skill = mongoose.model('communi_skill', yourSchema);
 
 export default C_Skill;

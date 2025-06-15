@@ -9,6 +9,6 @@ const yourSchema = new mongoose.Schema({
     Correct: String,
 });
 
-const C_S_P = mongoose.model('csp', yourSchema);
+const C_S_P = mongoose.model('php', yourSchema);
 
 export default C_S_P;

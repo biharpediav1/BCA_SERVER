@@ -9,6 +9,6 @@ const yourSchema = new mongoose.Schema({
     Correct: String,
 });
 
-const M_health = mongoose.model('m_health', yourSchema);
+const M_health = mongoose.model('management', yourSchema);
 
 export default M_health;

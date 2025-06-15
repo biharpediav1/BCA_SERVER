@@ -9,6 +9,6 @@ const yourSchema = new mongoose.Schema({
     Correct: String,
 });
 
-const Math = mongoose.model('math', yourSchema);
+const Math = mongoose.model('software', yourSchema);
 
 export default Math;

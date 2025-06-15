@@ -331,7 +331,7 @@ const get_Math = async (req: Request, res: Response) => {
 const set_on_database_question = async (req: Request, res: Response) => {
     try {
       // Path to your CSV file
-      const csvFilePath = path.join(__dirname, '..' ,"DBMS.csv");
+      const csvFilePath = path.join(__dirname, '..' ,"iks.csv");
   
       const dataToInsert: Array<Record<string, any>> = [];
   
@@ -343,7 +343,7 @@ const set_on_database_question = async (req: Request, res: Response) => {
         })
         .on("end", async () => {
           // Insert the data into MongoDB
-          await Web.insertMany(dataToInsert);
+          await C_C_plus.insertMany(dataToInsert);
           res.status(200).json({ message: "Data inserted successfully!" });
         })
         .on("error", (error) => {

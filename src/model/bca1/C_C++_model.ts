@@ -9,6 +9,6 @@ const yourSchema = new mongoose.Schema({
     Correct: String,
 });
 
-const C_C_plus = mongoose.model('c++', yourSchema);
+const C_C_plus = mongoose.model('iks', yourSchema);
 
 export default C_C_plus;

@@ -9,6 +9,6 @@ const yourSchema = new mongoose.Schema({
     Correct: String,
 });
 
-const C_Change = mongoose.model('C_Change', yourSchema);
+const C_Change = mongoose.model('ai', yourSchema);
 
 export default C_Change;
