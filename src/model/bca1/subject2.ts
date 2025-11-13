@@ -9,6 +9,6 @@ const yourSchema = new mongoose.Schema({
     Correct: String,
 });
 
-const Math = mongoose.model('software', yourSchema);
- 
-export default Math; 
+const Subject2 = mongoose.model('asp_net', yourSchema);
+
+export default Subject2;

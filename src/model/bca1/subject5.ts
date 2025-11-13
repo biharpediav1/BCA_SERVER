@@ -9,6 +9,6 @@ const yourSchema = new mongoose.Schema({
     Correct: String,
 });
 
-const M_health = mongoose.model('management', yourSchema);
+const Subject5 = mongoose.model('personality_development', yourSchema);
 
-export default M_health;
+export default Subject5;

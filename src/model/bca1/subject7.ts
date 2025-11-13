@@ -9,6 +9,6 @@ const yourSchema = new mongoose.Schema({
     Correct: String,
 });
 
-const C_S_P = mongoose.model('php', yourSchema);
+const Subject7 = mongoose.model('DBMS', yourSchema);
 
-export default C_S_P;
+export default Subject7;

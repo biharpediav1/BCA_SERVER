@@ -1,6 +1,6 @@
 import mongoose from 'mongoose';
 
-const mongoURI = 'mongodb+srv://biharpediain:katsa123muku@cluster0.ltgkwtv.mongodb.net/bca?retryWrites=true&w=majority';
+const mongoURI = 'mongodb+srv://xarmydev_db_user:mV0bb0P55F6Djcl9@cluster0.oerilli.mongodb.net/bca_db?retryWrites=true&w=majority&appName=Cluster0';
 
 mongoose.connect(mongoURI).then(()=>{
     console.log('MongoDB Connection Succeeded.')

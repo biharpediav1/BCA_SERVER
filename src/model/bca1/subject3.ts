@@ -9,6 +9,6 @@ const yourSchema = new mongoose.Schema({
     Correct: String,
 });
 
-const C_Change = mongoose.model('ai', yourSchema);
+const Subject3 = mongoose.model('digital_elec', yourSchema);
 
-export default C_Change;
+export default Subject3;
